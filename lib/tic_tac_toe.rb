@@ -57,7 +57,6 @@ class TicTacToe
   end
   
   def won?
-    
     WIN_COMBINATIONS.each do |combo|
       win_in_1 = combo[0]
       win_in_2 = combo[1]
