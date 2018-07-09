@@ -63,9 +63,7 @@ class TicTacToe
       win_in_2 = combo[1]
       win_in_3 = combo[2]
       
-      pos_1 = board[win_in_1]
-      pos_2 = board[win_in_2]
-      pos_3 = board[win_in_3]
+      pos_1 = @board[win_in_3]
       if (pos_1 == "X" && pos_2 == "X" && pos_3 == "X") || (pos_1 == "O" && pos_2 == "O" && pos_3 == "O" )
         return combo
       end
