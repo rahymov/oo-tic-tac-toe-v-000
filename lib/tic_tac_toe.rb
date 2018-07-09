@@ -78,7 +78,7 @@ class TicTacToe
   end
   
   def draw?
-    full? && over?
+    full? && !over?
   end
   
   def over?
