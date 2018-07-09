@@ -89,9 +89,9 @@ class TicTacToe
     win_in = won?[0] 
     winni = @board[win_in]
     return winni
-  else
-    return nil
-  end
+    else
+      return nil
+    end
   end
 
   def play
