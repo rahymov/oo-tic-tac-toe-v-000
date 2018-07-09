@@ -86,7 +86,7 @@ class TicTacToe
 
   def winner
    if won?
-     
+     pos = 
   end
 
   def play
